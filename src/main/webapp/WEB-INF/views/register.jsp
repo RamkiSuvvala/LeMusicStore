@@ -10,7 +10,7 @@
 <html>
 <%@ include file="/WEB-INF/views/header.jsp"  %>
 
-<h2 align="center">Rgistration</h2>
+<h2 align="center">Registration</h2>
 <div class="container">
 <div class="row">
  <div class="col-md-8 col-md-offset-2">
