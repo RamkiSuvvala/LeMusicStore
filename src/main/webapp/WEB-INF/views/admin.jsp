@@ -1,15 +1,4 @@
-<html>
-<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Le
-  Date: 1/2/2016
-  Time: 5:14 PM
-  To change this template use File | Settings | File Templates.
---%>
-<html>
-<%@ include file="/WEB-INF/views/header.jsp"  %>
-
+<%@ include file="/WEB-INF/views/adminHeader.jsp" %>
 
 <div class="container-wrapper">
 	<div class="container">

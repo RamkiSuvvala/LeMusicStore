@@ -62,14 +62,16 @@ public class ServiceController {
 		return "productInventory";
 	}
 	@RequestMapping(value="/admin/addProduct")
-	public String addProduct()
+	public String addProduct(Model model)
 	{
+		model.addAttribute("product", new Product());
 		return "addProduct";
 	}
 	
-	@RequestMapping("/admin/addingproduct")
-	public String insertingProduct(@ModelAttribute("product") Product product)
+	@RequestMapping("/admin/addingProduct")
+	public String insertingProduct(@ModelAttribute("product") Product product,Model model)
 	{
+		model.addAttribute("product", product);
 		return "success";
 	}
 	

@@ -7,8 +7,7 @@
   Time: 5:14 PM
   To change this template use File | Settings | File Templates.
 --%>
-<html>
-<%@ include file="/WEB-INF/views/header.jsp"  %>
+<%@ include file="/WEB-INF/views/adminHeader.jsp"  %>
 
 
 <div class="container-wrapper">
